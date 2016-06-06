@@ -1,0 +1,26 @@
+{
+  "name": "webpack-superalias",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobp100/webpack-superalias.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacobp100/webpack-superalias/issues"
+  },
+  "homepage": "https://github.com/jacobp100/webpack-superalias#readme",
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.11.1",
+    "eslint-config-airbnb-es5": "^1.0.9",
+    "eslint-plugin-react": "^5.1.1"
+  }
+}
