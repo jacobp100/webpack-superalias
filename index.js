@@ -8,7 +8,7 @@ SuperAlias.prototype.apply = function apply(compiler) {
   compiler.resolvers.normal.apply({
     apply: function applyResolver(resolver) {
       resolver.plugin('resolve', function resolve(context, request) {
-        request.path = fn(request); // eslint-disable-line
+        request.path = fn(request.path); // eslint-disable-line
       });
     }
   });
